@@ -21,6 +21,10 @@
 		7167C6A81950376400FD8F55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7167C68A1950376400FD8F55 /* UIKit.framework */; };
 		7167C6B01950376400FD8F55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7167C6AE1950376400FD8F55 /* InfoPlist.strings */; };
 		7167C6B21950376400FD8F55 /* Weather_PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7167C6B11950376400FD8F55 /* Weather_PlaygroundTests.m */; };
+		DD474EC21B13B936005C2C0F /* WPNetworkController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD474EC11B13B936005C2C0F /* WPNetworkController.m */; };
+		DD474EC81B13BD6E005C2C0F /* WPWeatherController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD474EC71B13BD6E005C2C0F /* WPWeatherController.m */; };
+		DD474ECB1B13BD7F005C2C0F /* WPWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = DD474ECA1B13BD7F005C2C0F /* WPWeather.m */; };
+		E9B1F4F9B48E8679D6AB9D79 /* libPods-Weather Playground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B686CD21F3C023B01C1725 /* libPods-Weather Playground.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		263DC4DE9B02C9281B4C575E /* Pods-Weather Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather Playground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Weather Playground/Pods-Weather Playground.debug.xcconfig"; sourceTree = "<group>"; };
+		6174B2E5F2D04C7BF77A3C92 /* Pods-Weather Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather Playground.release.xcconfig"; path = "Pods/Target Support Files/Pods-Weather Playground/Pods-Weather Playground.release.xcconfig"; sourceTree = "<group>"; };
 		7167C6831950376400FD8F55 /* Weather Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7167C6861950376400FD8F55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7167C6881950376400FD8F55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +59,13 @@
 		7167C6AD1950376400FD8F55 /* Weather PlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Weather PlaygroundTests-Info.plist"; sourceTree = "<group>"; };
 		7167C6AF1950376400FD8F55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7167C6B11950376400FD8F55 /* Weather_PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Weather_PlaygroundTests.m; sourceTree = "<group>"; };
+		DD474EC01B13B936005C2C0F /* WPNetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPNetworkController.h; sourceTree = "<group>"; };
+		DD474EC11B13B936005C2C0F /* WPNetworkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPNetworkController.m; sourceTree = "<group>"; };
+		DD474EC61B13BD6E005C2C0F /* WPWeatherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPWeatherController.h; sourceTree = "<group>"; };
+		DD474EC71B13BD6E005C2C0F /* WPWeatherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPWeatherController.m; sourceTree = "<group>"; };
+		DD474EC91B13BD7F005C2C0F /* WPWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPWeather.h; sourceTree = "<group>"; };
+		DD474ECA1B13BD7F005C2C0F /* WPWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPWeather.m; sourceTree = "<group>"; };
+		F3B686CD21F3C023B01C1725 /* libPods-Weather Playground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Weather Playground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +76,7 @@
 				7167C6891950376400FD8F55 /* CoreGraphics.framework in Frameworks */,
 				7167C68B1950376400FD8F55 /* UIKit.framework in Frameworks */,
 				7167C6871950376400FD8F55 /* Foundation.framework in Frameworks */,
+				E9B1F4F9B48E8679D6AB9D79 /* libPods-Weather Playground.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		217373242DB70DEE0034A0CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				263DC4DE9B02C9281B4C575E /* Pods-Weather Playground.debug.xcconfig */,
+				6174B2E5F2D04C7BF77A3C92 /* Pods-Weather Playground.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7167C67A1950376400FD8F55 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +109,7 @@
 				7167C6AB1950376400FD8F55 /* Weather PlaygroundTests */,
 				7167C6851950376400FD8F55 /* Frameworks */,
 				7167C6841950376400FD8F55 /* Products */,
+				217373242DB70DEE0034A0CD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +129,7 @@
 				7167C6881950376400FD8F55 /* CoreGraphics.framework */,
 				7167C68A1950376400FD8F55 /* UIKit.framework */,
 				7167C6A51950376400FD8F55 /* XCTest.framework */,
+				F3B686CD21F3C023B01C1725 /* libPods-Weather Playground.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +142,12 @@
 				7167C6981950376400FD8F55 /* Main.storyboard */,
 				7167C69B1950376400FD8F55 /* WPViewController.h */,
 				7167C69C1950376400FD8F55 /* WPViewController.m */,
+				DD474EC01B13B936005C2C0F /* WPNetworkController.h */,
+				DD474EC11B13B936005C2C0F /* WPNetworkController.m */,
+				DD474EC61B13BD6E005C2C0F /* WPWeatherController.h */,
+				DD474EC71B13BD6E005C2C0F /* WPWeatherController.m */,
+				DD474EC91B13BD7F005C2C0F /* WPWeather.h */,
+				DD474ECA1B13BD7F005C2C0F /* WPWeather.m */,
 				7167C69E1950376400FD8F55 /* Images.xcassets */,
 				7167C68D1950376400FD8F55 /* Supporting Files */,
 			);
@@ -159,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7167C6B51950376400FD8F55 /* Build configuration list for PBXNativeTarget "Weather Playground" */;
 			buildPhases = (
+				23CCB10F0F7C0767814F28EF /* Check Pods Manifest.lock */,
 				7167C67F1950376400FD8F55 /* Sources */,
 				7167C6801950376400FD8F55 /* Frameworks */,
 				7167C6811950376400FD8F55 /* Resources */,
+				F9BCA06BDBA35386EC03C915 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,12 +278,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23CCB10F0F7C0767814F28EF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9BCA06BDBA35386EC03C915 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Weather Playground/Pods-Weather Playground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7167C67F1950376400FD8F55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD474EC81B13BD6E005C2C0F /* WPWeatherController.m in Sources */,
 				7167C6931950376400FD8F55 /* main.m in Sources */,
+				DD474EC21B13B936005C2C0F /* WPNetworkController.m in Sources */,
+				DD474ECB1B13BD7F005C2C0F /* WPWeather.m in Sources */,
 				7167C6971950376400FD8F55 /* WPAppDelegate.m in Sources */,
 				7167C69D1950376400FD8F55 /* WPViewController.m in Sources */,
 			);
@@ -374,6 +443,7 @@
 		};
 		7167C6B61950376400FD8F55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 263DC4DE9B02C9281B4C575E /* Pods-Weather Playground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +457,7 @@
 		};
 		7167C6B71950376400FD8F55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6174B2E5F2D04C7BF77A3C92 /* Pods-Weather Playground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +528,7 @@
 				7167C6B71950376400FD8F55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7167C6B81950376400FD8F55 /* Build configuration list for PBXNativeTarget "Weather PlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +537,7 @@
 				7167C6BA1950376400FD8F55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
